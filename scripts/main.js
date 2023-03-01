@@ -1,5 +1,4 @@
-// Add your javascript here
-// Don't forget to add it into respective layouts where this js file is needed
+
 
 $(document).ready(function() {
   AOS.init( {
@@ -41,3 +40,13 @@ $('a.smooth-scroll')
     }
   }
 });
+
+document.querySelectorAll('.image-container2 img').forEach(image =>{
+  image.onclick = () =>{
+    document.querySelector('.popup-image').style.display = 'block';
+    document.querySelector('.popup-image img').src = image.getAttribute('src');
+  }
+});
+document.querySelector('.popup-image span').onclick = () =>{
+  document.querySelector('.popup-image').style.display = 'none';
+}

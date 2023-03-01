@@ -2181,9 +2181,9 @@ small {
   font-size: 60%; }
 
 a {
-  color: #378C3F; }
+  color: #00308F; }
   a:hover, a:focus {
-    color: #378C3F; }
+    color: #00308F; }
 
 h1, .h1 {
   font-size: 3.5em;
@@ -5376,6 +5376,7 @@ Created using IcoMoon - icomoon.io
 
 .cc-profile-image img {
   position: relative;
+  object-fit: cover;
   border-radius: 50%;
   height: 180px;
   width: 180px;
@@ -5444,7 +5445,7 @@ Created using IcoMoon - icomoon.io
   background: #a5a3a3; }
 
 .cc-reference .carousel-indicators .active {
-  background-color: #378C3F; }
+  background-color: #00308F; }
 
 .cc-reference .carousel-inner {
   box-shadow: none; }
@@ -5498,14 +5499,15 @@ a.credit {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 15px;
   width: 80%;
 }
 
-.centerPSS {
+.centerNYP {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 110px;
+  margin-top: 200px;
   width: 80%;
 }
 
@@ -5513,7 +5515,15 @@ a.credit {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 50px;
+  margin-top: 110px;
+  width: 80%;
+}
+
+.centerPSS {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
   width: 80%;
 }
 div.background {
@@ -5572,3 +5582,23 @@ div.transbox {
 #box2 {
   cursor: zoom-in;
 }
+
+.icon-box {
+  box-shadow:
+  0px 5px 25px 0px rgb(0 0 0 / 20%)
+}
+
+.award-header{
+  text-align: center;
+}
+
+.award-body{
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.cc-award .row{
+  margin-bottom: 10px; }
+
+  
